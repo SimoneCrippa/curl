@@ -1,0 +1,7 @@
+
+config EXTERNAL_CURL
+  bool "cURL Library"
+  default n
+  ---help---
+  cURL library to support GET requests to weather APIs
+  
