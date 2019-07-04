@@ -12,6 +12,7 @@ MODULE_DIR_CURL=external/optional/curl
 VERSION_CURL="7.65.0"
 
 curl:
+	@cd ${MODULE_DIR_CURL} && autoreconf -i
 	@echo
 	@echo "==== Installing curl Library ($(VERSION_CURL)) ===="
 	@echo " Using GCC    : $(CC)"
